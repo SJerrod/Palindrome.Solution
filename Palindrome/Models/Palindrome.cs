@@ -1,6 +1,6 @@
 using System;
 
-namespace Palindrome
+namespace Palindrome.Models
 {
     public class PalindromeCheck
     {
