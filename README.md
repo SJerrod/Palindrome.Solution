@@ -1,12 +1,12 @@
-# _TODOName_
+# _Palindrome_
 
 <div align="center">
 <img src="https://github.com/jeffchiudev.png" width="200px" height="auto" >
 </div>
-<p align="center">Authored by Jeff Chiu</p>
-<p align="center">Updated on: TODO</p>
+<p align="center">Authored by Jeff Chiu, Jerrod Styrk</p>
+<p align="center">Updated on: 12/8/2020</p>
 
-#### _TODO, v1.0, 20.nov.2020_
+#### Palindrome, v1.0, 08.Dec.2020_
 
 ## Description:
 
@@ -58,8 +58,8 @@ _4. Follow instructions above regarding set up and API key creation._
 
 | Description | Input | Ouput |
 | :---------- | :---- | :---- |
-| Exchange |||
-||||
+| IsPalindrome |||
+| should return true if string = string | "holiday" | true |
 
 </p>
 </details>
@@ -88,4 +88,4 @@ _* ES6_
 _* Webpack_
 
 _This extension is licensed under the MIT license._
-Copyright (c) 2020 **_Jeff W. Chiu_** 
+Copyright (c) 2020 **_Jeff W. Chiu__Jerrod Styrk_** 
