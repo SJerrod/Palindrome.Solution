@@ -8,10 +8,12 @@ namespace Palindrome
         {
             if (query is string) 
             {
-                if (query == query.FlipString())
+                string flippedQuery = FlipString(query);
+                if (query == flippedQuery)
                 {
                     return true;
                 }
+                return false;
             }
             else 
             {
@@ -24,6 +26,19 @@ namespace Palindrome
             char[] charArray = query.ToCharArray();
             Array.Reverse(charArray);
             return new String(charArray);
+        }
+
+        public string FlipStringHardMode(string query)
+        {
+            char[] stringQuery = query.ToCharArray();
+            string reverse = String.Empty;
+            
+            for (int i = stringQuery.Length - 1; i >= 0; i--)
+            {
+                reverse += stringQuery[i];
+            }
+
+            return reverse;
         }
     }
 }

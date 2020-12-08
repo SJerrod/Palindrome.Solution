@@ -10,7 +10,7 @@ namespace Palindrome.Tests
         public void IsPalindrome_ReturnsString_True()
         {
             PalindromeCheck testCase = new PalindromeCheck();
-            Assert.AreEqual(true, testCase.IsPalindrome("abcde"));
+            Assert.AreEqual(false, testCase.IsPalindrome("abcde"));
         }
 
         [TestMethod]
@@ -25,6 +25,13 @@ namespace Palindrome.Tests
         {
             PalindromeCheck testcase = new PalindromeCheck();
             Assert.AreEqual(true, testcase.IsPalindrome("tacocat"));
+        }
+
+        [TestMethod]
+        public void FlipStringHardMode_ReverseStringWithoutReverseMethod_string()
+        {
+            PalindromeCheck testcase = new PalindromeCheck();
+            Assert.AreEqual("tacocat", testcase.FlipStringHardMode("tacocat"));
         }
     }
 }
