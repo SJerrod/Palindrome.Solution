@@ -60,6 +60,7 @@ _4. Follow instructions above regarding set up and API key creation._
 | :---------- | :---- | :---- |
 | IsPalindrome |||
 | should return true if string = string | "holiday" | true |
+| should return a flipped string if we use the .reverse() method | "holiday" | "yadiloh" |
 
 </p>
 </details>

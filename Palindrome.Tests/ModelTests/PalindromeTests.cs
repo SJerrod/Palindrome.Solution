@@ -12,5 +12,7 @@ namespace Palindrome.Tests
             PalindromeCheck testCase = new PalindromeCheck();
             Assert.AreEqual(true, testCase.IsPalindrome("abcde"));
         }
-    }
+
+        [TestMethod]
+        public void IsPalindrome_
 }
