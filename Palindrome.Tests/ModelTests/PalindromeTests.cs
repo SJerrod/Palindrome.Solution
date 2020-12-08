@@ -19,5 +19,12 @@ namespace Palindrome.Tests
             PalindromeCheck testReverse = new PalindromeCheck();
             Assert.AreEqual("edcba", testReverse.FlipString("abcde"));
         }
+
+        [TestMethod]
+        public void IsPalindrome_OriginalStringEqualFlippedString_True()
+        {
+            PalindromeCheck testcase = new PalindromeCheck();
+            Assert.AreEqual(true, testcase.IsPalindrome("tacocat"));
+        }
     }
 }

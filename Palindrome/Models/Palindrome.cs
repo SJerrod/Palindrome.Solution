@@ -8,7 +8,10 @@ namespace Palindrome
         {
             if (query is string) 
             {
-                return true;
+                if (query == query.FlipString())
+                {
+                    return true;
+                }
             }
             else 
             {
