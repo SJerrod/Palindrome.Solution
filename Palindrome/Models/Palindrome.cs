@@ -4,7 +4,14 @@ namespace Palindrome
     {
         public bool IsPalindrome(string query)
         {
-            return false;
+            if (query is string) 
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
         }
     }
 }
