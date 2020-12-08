@@ -1,3 +1,5 @@
+using System;
+
 namespace Palindrome
 {
     public class PalindromeCheck
@@ -12,6 +14,13 @@ namespace Palindrome
             {
                 return false;
             }
+        }
+
+        public string FlipString(string query)
+        {
+            char[] charArray = query.ToCharArray();
+            Array.Reverse(charArray);
+            return new String(charArray);
         }
     }
 }

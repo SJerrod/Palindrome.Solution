@@ -14,5 +14,10 @@ namespace Palindrome.Tests
         }
 
         [TestMethod]
-        public void IsPalindrome_
+        public void FlipString_ReverseString_string()
+        {
+            PalindromeCheck testReverse = new PalindromeCheck();
+            Assert.AreEqual("edcba", testReverse.FlipString("abcde"));
+        }
+    }
 }
